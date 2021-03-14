@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testdoc"
+  description: "testdokument"
+  annotations:
+    github.com/project-slug: JohWik/testdoc
+    backstage.io/techdocs-ref: url:https://github.com/JohWik/testdoc
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "JohWik"
